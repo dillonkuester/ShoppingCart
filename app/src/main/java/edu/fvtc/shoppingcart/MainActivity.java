@@ -122,6 +122,8 @@ public class MainActivity extends AppCompatActivity {
         }
         if (id == R.id.action_read) {
 
+
+            //commit
             FileIO fileIO = new FileIO();
             fileIO.ReadFile(this);
         //    Log.println(Log.DEBUG, TAG, "File Read!!!!!!!!!");
